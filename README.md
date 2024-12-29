@@ -3,7 +3,7 @@
 ### *Full Stack Software Engineer passionate about turning ideas into reality*
 
 [![GitHub followers](https://img.shields.io/github/followers/Marabii?label=Follow&style=social)](https://github.com/Marabii)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/your-linkedin-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/dadda-hamza-997616324/)
 [![Email](https://img.shields.io/badge/Email-minehamza97%40gmail.com-red?style=social&logo=gmail)](mailto:minehamza97@gmail.com)
 
 ---
@@ -25,8 +25,6 @@ I'm a passionate and dedicated **Full Stack Developer** with a strong foundation
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat&logo=vue.js&logoColor=white)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00C58E?style=flat&logo=nuxtdotjs&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white)
 
 ### Back-End
@@ -119,13 +117,13 @@ I'm a passionate and dedicated **Full Stack Developer** with a strong foundation
 
 - **Email**: [minehamza97@gmail.com](mailto:minehamza97@gmail.com)
 - **GitHub**: [Marabii](https://github.com/Marabii)
-- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/your-linkedin-profile)
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/dadda-hamza-997616324/)
 
 ---
 
 ## 🎯 Goals
 
-- **Entrepreneurial Initiatives**: Currently working on personal projects and seeking investment through [PÉPITE France](https://www.pepite-france.fr/) to bring innovative ideas to market.
+- **Entrepreneurial Initiatives**: Currently working on my personal startup.
 - **Collaboration**: Open to contributing technical expertise and innovative thinking to a dynamic team.
 
 ---
