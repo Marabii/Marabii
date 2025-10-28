@@ -75,7 +75,7 @@ My work spans from scalable web platforms to experimental AI agents that operate
 **Tech Stack:** PyTorch, GroundingDINO, Perplexity API, Puppeteer, Python, Computer Vision, LLMs
 
 **Note:** I scraped Reddit to generate screenshots and annotations in COCO format using [RedditScraper](**https://github.com/Marabii/RedditUiScraper**) and used my personal powerful GPU (RTX 5080) to fine-tune GroundingDino entirely locally.
-
+![AI Reddit Agent Demo](RedditAgent.mp4)
 ---
 
 ### 🌍 **Jeebware** *(Full-Stack Marketplace Platform)*
