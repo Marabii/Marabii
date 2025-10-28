@@ -75,7 +75,11 @@ My work spans from scalable web platforms to experimental AI agents that operate
 **Tech Stack:** PyTorch, GroundingDINO, Perplexity API, Puppeteer, Python, Computer Vision, LLMs
 
 **Note:** I scraped Reddit to generate screenshots and annotations in COCO format using [RedditScraper](**https://github.com/Marabii/RedditUiScraper**) and used my personal powerful GPU (RTX 5080) to fine-tune GroundingDino entirely locally.
-![AI Reddit Agent Demo](RedditAgent.mp4)
+
+
+https://github.com/user-attachments/assets/30c0bda3-795d-43f5-b225-0d488669c73a
+
+
 ---
 
 ### 🌍 **Jeebware** *(Full-Stack Marketplace Platform)*
@@ -87,6 +91,9 @@ My work spans from scalable web platforms to experimental AI agents that operate
 - Built to scale and handle international transactions with secure payment and identity layers.
 
 **Tech Stack:** Next.js, Spring Boot, TypeScript, AWS, Stripe API, Wise API, TailwindCSS, Docker
+
+<img width="1869" height="919" alt="image" src="https://github.com/user-attachments/assets/965e5b43-52ff-442f-8a34-73a195b5ff77" />
+
 
 ## 🌱 Currently Exploring
 - **Vision-Language Models (VLMs)** and multimodal AI
