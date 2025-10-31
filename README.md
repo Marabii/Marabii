@@ -94,6 +94,9 @@ https://github.com/user-attachments/assets/30c0bda3-795d-43f5-b225-0d488669c73a
 
 <img width="1869" height="919" alt="image" src="https://github.com/user-attachments/assets/965e5b43-52ff-442f-8a34-73a195b5ff77" />
 
+<img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/8f243e1c-7af9-4252-b99d-dccdcde0e721" />
+
+
 
 ## 🌱 Currently Exploring
 - **Vision-Language Models (VLMs)** and multimodal AI
