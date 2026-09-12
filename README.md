@@ -15,7 +15,7 @@
 
 ## About me
 
-I'm a software engineer finishing my M.Eng. in Computer Science at École des Mines de Saint-Étienne, currently interning at Murex in Paris. I work across the whole stack: Spring Boot and Rust back ends, React and Next.js front ends, and the tooling around them. The projects I enjoy most are the ones where performance is measurable (a parser that runs at 446 MB/s, a CI loop cut from 5 hours to under a minute) or where an AI model has to act in a real environment rather than a benchmark.
+I'm a software engineer finishing my M.Eng. in Computer Science at École des Mines de Saint-Étienne, currently interning at Murex in Paris. I work across the whole stack: Spring Boot and Rust back ends, React and Next.js front ends, and the tooling around them. The projects I enjoy most are the ones where performance is measurable (a parser that runs at up to 1.3 GB/s, a CI loop cut from 5 hours to under a minute) or where an AI model has to act in a real environment rather than a benchmark.
 
 ---
 
@@ -110,16 +110,18 @@ The CLI is zero-configuration: run it next to a module's `pom.xml` and it resolv
 
 ## Featured work
 
-### simd-toon: SIMD-accelerated Rust parser
+### [simd-toon: SIMD-accelerated Rust parser](https://github.com/Marabii/simd-toon)
 *Independent project, March 2026*
 
 Zero-copy parser for the TOON format, built on a vectorized Shufti algorithm and a flat O(1) state machine.
 
 | Metric | Result |
 |---|---|
-| Throughput | **446 MB/s** |
-| vs. official Rust reference | **up to 3x faster** |
+| Throughput | **up to 1.3 GB/s** |
+| vs. official Rust reference | **up to 10x faster** |
 | Retained memory | **65% lower** |
+
+*Benchmarked with Criterion across real-world JSON corpora (twitter, canada, citm_catalog, github_events, log) against the reference `toon_format` crate.*
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![SIMD](https://img.shields.io/badge/SIMD-8B0000?style=flat-square)
@@ -187,7 +189,7 @@ Headless CMS with 6,000+ customers, including Mitsubishi, Capcom, and the Univer
 | 📐 | **CPGE MPSI/MP** · LM6E, Benguerrir, Morocco · 2021 – 2023<br>Intensive preparatory classes in mathematics and physics |
 | 🗣️ | **English C2** (TOEIC 930) · **French C1** · **Arabic** native |
 | ⚡ | Cut a team's CI/CD feedback loop from 5 hours to under 1 minute with a Rust CLI, on my own initiative, during the Murex internship |
-| 🚀 | Beat the official Rust TOON parser by up to 3x with `simd-toon` |
+| 🚀 | Beat the official Rust TOON parser by up to 10x with [`simd-toon`](https://github.com/Marabii/simd-toon) |
 
 ---
 
