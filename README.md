@@ -114,14 +114,7 @@ The CLI is zero-configuration: run it next to a module's `pom.xml` and it resolv
 *Independent project, March 2026*
 
 Zero-copy parser for the TOON format, built on a vectorized Shufti algorithm and a flat O(1) state machine.
-
-| Metric | Result |
-|---|---|
-| Throughput | **up to 1.3 GB/s** |
-| vs. official Rust reference | **up to 10x faster** |
-| Retained memory | **65% lower** |
-
-*Benchmarked with Criterion across real-world JSON corpora (twitter, canada, citm_catalog, github_events, log) against the reference `toon_format` crate.*
+<img width="1600" height="914" alt="simd_toon_throughput_comparison" src="https://github.com/user-attachments/assets/a55b1438-07f5-4611-8b46-f331322acb39" />
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![SIMD](https://img.shields.io/badge/SIMD-8B0000?style=flat-square)
