@@ -15,7 +15,7 @@
 
 ## About me
 
-I'm a software engineer finishing my M.Eng. in Computer Science at École des Mines de Saint-Étienne, currently interning at Murex in Paris. I work across the whole stack: Spring Boot and Rust back ends, React and Next.js front ends, and the tooling around them. The projects I enjoy most are the ones where performance is measurable (a parser that runs at up to 1.3 GB/s, a CI loop cut from 5 hours to under a minute) or where an AI model has to act in a real environment rather than a benchmark.
+Software engineer with an M.Eng. in Computer Science from École des Mines de Saint-Étienne, previously at Murex and Diverta. I specialize in full-stack architecture with a keen interest in backend development primarily using Rust axum, Spring Boot and also on developer tooling and measurable performance. Notable wins include building a 1.3 GB/s zero-copy parser of a format called TOON similar to JSON and cutting environment patching delays from 5 hours down to 20 minutes at murex.
 
 ---
 
@@ -23,16 +23,14 @@ I'm a software engineer finishing my M.Eng. in Computer Science at École des Mi
 
 **Software Engineer Intern @ Murex** (Apr 2026 – Sep 2026, Paris)
 
-Building a portfolio-optimization prototype end to end for a global fintech: Java / Spring Boot REST back end, TypeScript front end, deployed as micro-services.
+Built a portfolio optimization prototype end to end for murex. I used Java / Spring Boot / Python for the back end and TypeScript for the front end. The python service was deployed as a micro service using GRPC.
 
-Two side quests I picked up on my own initiative:
+Outside the scope of my internship, I worked on:
 
 | What | Before | After |
 |---|---|---|
-| Code-to-feedback loop (Rust CLI that patches locally built Maven modules onto test servers) | ~5 hours via CI/CD | **< 1 minute** in 99% of runs, 20 min worst case |
+| Rust CLI tool that smartly patched existing deployed environments instead of building new ones from scratch | ~5 hours via CI/CD | 20 mins, mainly to restart the new services. |
 | Concurrency bug in a production API | A method fully synchronized just to check whether a `Future` was consumed, forcing the service single-threaded | Traced, documented, and unblocked |
-
-The CLI is zero-configuration: run it next to a module's `pom.xml` and it resolves the artifact, deploys it, and updates dependencies and environment variables on the test server. That last part is what the previous patch script never did, so manual edits to shared servers used to break things regularly.
 
 <div align="center">
 
@@ -63,7 +61,6 @@ The CLI is zero-configuration: run it next to a module's `pom.xml` and it resolv
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![Axum](https://img.shields.io/badge/Axum-000000?style=flat&logo=rust&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Deno](https://img.shields.io/badge/Deno-000000?style=flat&logo=deno&logoColor=white)
 ![REST](https://img.shields.io/badge/REST-005571?style=flat)
 ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat&logo=socketdotio&logoColor=white)
 ![Microservices](https://img.shields.io/badge/Micro--services-FF6B6B?style=flat)
@@ -75,15 +72,6 @@ The CLI is zero-configuration: run it next to a module's `pom.xml` and it resolv
 ![Vue.js](https://img.shields.io/badge/Vue_3-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![GroundingDINO](https://img.shields.io/badge/GroundingDINO-0052CC?style=flat)
-![Computer Vision](https://img.shields.io/badge/Computer_Vision-0078D7?style=flat&logo=opencv&logoColor=white)
-![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?style=flat&logo=openai&logoColor=white)
-![Perplexity](https://img.shields.io/badge/Perplexity_API-1FB8CD?style=flat&logo=perplexity&logoColor=white)
 
 **Databases**
 
@@ -113,7 +101,7 @@ The CLI is zero-configuration: run it next to a module's `pom.xml` and it resolv
 ### [simd-toon: SIMD-accelerated Rust parser](https://github.com/Marabii/simd-toon)
 *Independent project, March 2026*
 
-Zero-copy parser for the TOON format, built on a vectorized Shufti algorithm and a flat O(1) state machine.
+Zero-copy parser for the TOON format. Reused the 2 stage approach pioneered by Lemire and Langdale and modified it for the indentation based format: TOON.
 <img width="1600" height="914" alt="simd_toon_throughput_comparison" src="https://github.com/user-attachments/assets/a55b1438-07f5-4611-8b46-f331322acb39" />
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
