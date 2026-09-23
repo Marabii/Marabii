@@ -112,26 +112,22 @@ Zero-copy parser for the TOON format. Reused the 2 stage approach pioneered by L
 
 A platform that helps international students settle abroad: housing, connections, and local integration. I designed the back end in Rust / Axum, including a real-time messaging system written from scratch over Socket.IO and an interest-based matching algorithm that pairs students with peers. Three clients ship against it: two Next.js 16 web apps (an admin console and a homeowner listing portal) and a Flutter app for students.
 
+<img width="3852" height="2778" alt="h4" src="https://github.com/user-attachments/assets/d295da1e-5799-4290-96af-f4e883d8d48e" />
+
+
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Axum](https://img.shields.io/badge/Axum-000000?style=flat-square)
 ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)
 
-### Reddit AI Agent
-*Personal project*
-
-An autonomous agent that reads and acts on Reddit using screenshots only, with no HTML parsing and no API calls. Give it a prompt like "boost my karma by helping people" and it comments, upvotes, or downvotes on its own. It runs on a GroundingDINO model I fine-tuned on a Reddit UI dataset I scraped and annotated in COCO format with [RedditUiScraper](https://github.com/Marabii/RedditUiScraper), trained locally on an RTX 5080. Runs fully local (16 GB VRAM) or in a hybrid mode with the Perplexity API for language tasks.
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![GroundingDINO](https://img.shields.io/badge/GroundingDINO-0052CC?style=flat-square)
-![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat-square&logo=puppeteer&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
 ### Jeebware
 *Founder & developer, 2024 – 2025*
 
 Cross-border marketplace connecting proxy buyers with customers who want rare or hard-to-source products. Next.js 15 / TypeScript front end, Spring Boot back end on AWS, Stripe and Wise for payments, WebSockets for messaging.
+
+<img width="1920" height="1421" alt="jeebware-map-screenshot" src="https://github.com/user-attachments/assets/950703ca-952e-4a19-a3e2-b3b6287571db" />
+
 
 ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
